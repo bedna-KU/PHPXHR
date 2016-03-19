@@ -1,7 +1,7 @@
 # PHPXHR
 
 ### About
-Read/Write file over PHP <=> Javascript Webworkers
+Write/Read file over PHP <=> Javascript Webworkers
 
 ### Structure
 
