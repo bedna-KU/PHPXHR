@@ -3,6 +3,9 @@
 ### About
 Write/Read file over PHP <=> Javascript Webworkers
 
+### Dependency
+none
+
 ### Structure
 
 <pre>
