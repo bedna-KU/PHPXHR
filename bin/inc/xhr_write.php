@@ -11,7 +11,7 @@
 // http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 //#########################################################
 
-$text = $_SERVER['HTTP_X_TEXT']; // Text
+$text = rawurldecode ($_SERVER['HTTP_X_TEXT']); // Text
 
 // Name must be set
 if (!isset ($text)) {
@@ -21,6 +21,5 @@ if (!isset ($text)) {
 $handle = fopen ("../../text.txt", "w");
 fwrite ($handle, $text."\n");
 fclose ($handle);
-chmod ("../../text.txt", 0777);
 echo "OK";
 ?>

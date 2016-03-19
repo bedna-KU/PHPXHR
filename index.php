@@ -27,11 +27,12 @@ echo "
 
 echo "
 	<body>
-		<p id=\"status\">STATUS</p>
 		<form name=\"form\" action=\"javascript:sendText()\">
-			<input type=\"text\" class=\"input\" id=\"shell\" name=\"shell\" autocomplete=\"off\">
-			<input type=\"submit\" class=\"input_ok\" name=\"ok\" value=\"OK\">
-		</form>\n
+			<input type=\"text\" id=\"message\" name=\"message\">
+			<input type=\"submit\" name=\"ok\" value=\"OK\">
+		</form>
+		<p><b>STATUS:</b></p>
+		<p id=\"status\"></p>
 	</body>
 </html>
 ";
