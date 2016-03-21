@@ -3,6 +3,9 @@
 ### About
 Write/Read file over PHP <=> Javascript Webworkers
 
+### What is webworkers?
+Scripts running into background. Process do not burden webbrowser and user is happy
+
 ### Dependency
 none
 
