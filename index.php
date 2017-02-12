@@ -16,11 +16,9 @@ echo "
 	<head>
 		<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
 		<meta name='author' content='Mario Chorvath - Bedňa' >
-		<meta name='company' content='KERNEL ULTRAS'>
-		<meta name='date' content='(D.M.Y) 31.07.2011'>
+		<meta name='date' content='(D.M.Y) 31.07.2014'>
 		<meta name='robots' content='index,follow'>
-		<meta name='description' content='KERNEL ULTRAS alias Linux Online'>
-		<meta name='keywords' content='Linux,FSF,Free Software,Open Source,Android,Programing,Programovanie'>
+		<meta name='description' content='PHP XHR AJAX'>
 		<script type='text/javascript' src='bin/javascript/main.js'></script>
 	</head>
 ";
